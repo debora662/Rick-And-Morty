@@ -1,0 +1,82 @@
+.contenedor {
+    border: rgb(226, 133, 12) 7px groove;
+    border-radius: 2rem;
+    width: 225px;
+    margin: auto;
+    padding: 0.5rem;
+    box-shadow: 10px -10px 15px rgb(122, 118, 118);
+    background: #f8eac5;
+    background-image: radial-gradient(circle at center center, #f8e80b, #f7f5e5), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+    margin-bottom: 2rem;
+}
+
+/* .contenedor tiene los estilos del div que contiene la carta de Rick */
+
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .btn tiene los estilos del div que contiene al botón */
+
+#close { 
+    color: white;
+    border-radius: 0.2rem;
+    margin-right: 0.3rem;
+    border: 1px solid rgb(138, 133, 133);
+    font-weight: 800;
+    background-color: black;
+}
+
+/* acá con un selector le indicamos que btn a los elementos <button> le pondremos los estilos  */
+
+#close:hover {
+    background-color: red;
+}
+
+.fav {
+    border: none;
+    background: none;
+    font-size: 18px; 
+}
+
+/* efecto para que el botón cambie de color */
+
+.img {
+    border-radius: 78% 22% 71% 29% / 47% 65% 35% 53%;
+    border: 3px rgb(248, 141, 1) solid;
+}
+/*a <img> le puse directamente en su etiqueta la forma de los bordes */
+
+.img:hover {
+    border-color: rgb(73, 72, 72);
+    transform: scale(1.02);
+}
+
+#nameDiv {
+    /* border: 2px solid blue; */
+    height: 85px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#detailDiv {
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+.font:hover {
+    transform: scale(1.2);
+    color: rgb(48, 158, 4);
+}
+
+
