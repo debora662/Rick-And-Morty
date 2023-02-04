@@ -1,0 +1,73 @@
+.contenedor h1 {
+    margin: 30px;
+    color: white;
+    margin-top: 35px;
+}
+
+.contenedor{
+    background-color: rgba(235, 153, 224, 0.9);
+    margin: 80px;
+    border-radius: 5px;
+    width: 90vw;
+    height: 74vh;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+
+#boton{
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	margin:auto;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #312f2d;
+}
+
+#boton:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+
+#boton:active {
+    position: relative;
+    top: 1px;
+}
+
+.contenedor p {
+    float: right;
+    text-align: left;
+    width: 800px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: 15px;
+    
+    
+}
+
+#imageDiv{
+    position: absolute;
+    display: flex;
+    margin: 30px;
+    height: 350px;
+    margin-top: -15px;
+    border-radius: 15px;
+    float: left;
+}
+
+#imageRick{
+    position: absolute;
+    right: 370px;
+    margin: -290px;
+    height: 170px;
+    margin-top: 215px;
+}

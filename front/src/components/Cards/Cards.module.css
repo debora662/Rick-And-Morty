@@ -1,0 +1,8 @@
+.cartas {
+    display: grid;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+

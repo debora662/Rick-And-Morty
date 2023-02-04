@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgba(125, 206, 160, 0.9);
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column
+}
+
+#imgDiv {
+    margin: auto;
+    margin-bottom: 10rem;
+
+}
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.infoGroup {
+    display: flex;
+    margin: auto;
+
+}
+
+p {
+    margin: 1rem;
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal
+}
